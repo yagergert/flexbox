@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none; 
+}
+a:hover{
+    color: gray;
+}
+/* -------------header, footer-------------- */
+header, footer{
+    background-color: aqua;
+}
+
+/* -----------------header---------------- */
+.logo{
+    text-align: center;
+    margin: 0;
+}
+
+.logotypeimg{
+    width: 65px;
+    margin: 7px;
+}
+
+.nameofsite{
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 10px 0px;
+    flex-wrap: wrap;
+    flex: auto;
+}
+
+.menu div{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: aliceblue;
+    flex: auto;
+    justify-content: center;
+}
+/* -------body--------- */
+/* ------------------main----------------- */
+main{
+    display: flex;
+    background-color: lightblue;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 25%;
+    margin: 30px;
+    align-items: center;
+    padding: 10px;
+}
+.container h1{
+    font-size: medium;
+}
+.container a{
+    margin: 10px;
+}
+.buying{
+    width: 163px;
+}
+.cart{
+    width: 32px;
+}
+button{
+    padding: 10px 30px 10px 30px;
+    align-items: center;
+}
+/* aside */
+aside{
+    background-color: darkseagreen;
+    width: 10%;
+}
+
+/* ------------------footer----------------- */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer img{
+    width: 50px;
+    text-align: center;
+}
+
+/* div */
+footer div{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+footer div h1{
+    font-size: medium;
+    text-align: center;
+    align-items: baseline;
+    margin: 10px;
+}
+
+footer div p{
+    text-align: center;
+}
+
+footer div img{
+    display: flex;
+    margin: 0 auto;
+}
